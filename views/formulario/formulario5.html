@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles_formulario/styles_formulario5.css"type="text/css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <header>
+ 
+        <figure class="container_logo">
+          <a href="../../index.html" >
+            <img src="../../img/logo.png" class="logo" alt="logo">
+          </a>
+        </figure>
+        <nav>
+          <a href="../../index.html">Home</a></li>
+        </nav>
+    
+    </header>
+
+    <h2> FORMULARIO 5</h2>
+    <main class="container_formulario">
+        <form class="formulario" action="" method="post">
+            <fieldset class="datos_personales">
+
+                <legend>Datos personales</legend>
+<div class="container_form_group">
+                <div class="group_form">
+                    <label for="nombre"class="label_form"> Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" class="input_form"value="">
+                </div>
+
+                <div class="group_form">
+                    <label for="apeliidos"class="label_form"> Apellidos: </label>
+                    <input type="text" id="apellidos" name="apellidos" class="input_form"value="">
+                </div>
+
+                <div class="group_form group_form_radio">
+                    <label for="sexo" class="label_form"> Sexo: </label>
+                    <label for="hombre"class="label_form">Hombre</label>
+                    <input type="radio" id="hombre" name="sexo" value="hombre">
+                    <label for="mujer"class="label_form">Mujer</label>
+                    <input type="radio" id="mujer" name="sexo" value="mujer">
+                </div>
+
+                <div class="group_form">
+                    <label for="correo" class="label_form"> Correo: </label>
+                    <input type="text" id="correo" name="correo" value="" class="input_form" >
+                </div>
+                <div class="group_form">
+                    <label for="Ciudad" class="label_form"> Ciudad: </label>
+                    <select name="Ciudad"class="input_form">
+                        <option>Montevideo</option>
+                        <option>Paysandu</option>
+                        <option>Maldonado</option>
+                        <option>Rivera</option>
+                    </select>
+                </div>
+                <div class="group_form">
+                    <label for="Descripcion"class="label_form">Descripcion: </label>
+                    <textarea name="Descripcion" class="input_form textarea"></textarea>
+                </div>
+            </div>
+            </fieldset>
+
+            <fieldset>
+                <legend> Permisos </legend>
+                <div class="group_form form_group_option">
+                    <input type="checkbox" id="info" name="infos" value="info">
+                    <label for="info"> Deseo recibir informacion sobre novedades y ofertas.</label>
+                  
+                </div>
+
+                <div class="group_form form_group_option">
+                    <input type="checkbox" id="declaro" name="condiciones" value="declaro">
+                    <label for="declaro"> Declaro haber leido y aceptar las condiciones del proveedor.</label>
+                   
+                </div>
+
+            </fieldset>
+            <div class="botones">
+                <input type="submit"class="boton"  value="enviar">
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="Stylesheet" href="../../css/styles_tablas/css_tablas_medidas.css" type="text/css">
+  <title>Tablas Medidas</title>
+</head>
+
+
+<body>
+  
+  <header>
+ 
+    <figure class="container_logo">
+      <a href="../../index.html" >
+        <img src="../../img/logo.png" class="logo" alt="logo">
+      </a>
+    </figure>
+    <nav>
+      <a href="../../index.html">Home</a></li>
+    </nav>
+
+</header>
+
+  <div class="container">
+    <div class="title">
+      <h2>Tabla <span>Medidas</span></h2>
+    </div>
+    <div class="tabla">
+      <table cellspacing="0" cellpadding="5">
+        <thead>
+          <tr>
+            <th>Tipo</th>
+            <th>Unidad</th>
+            <th>Valor</th>
+            <th>Caracteristicas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Absoluta</td>
+            <td>px</td>
+            <td>1px = 0.26mm</td>
+            <td>x</td>
+          </tr>
+          <tr>
+            <td rowspan="5">Relativas</td>
+            <td>em</td>
+            <td>1em = +-16px</td>
+            <td>Fuente establecida por el navegador</td>
+          </tr>
+          <tr>
+            <td>ex</td>
+            <td>1/2 em</td>
+            <td>Idemanterior</td>
+          </tr>
+          <tr>
+            <td>ch</td>
+            <td>
+              < cero width>
+            </td>
+            <td>Tamaño del ancho 0</td>
+          </tr>
+          <tr>
+            <td>Rem</td>
+            <td>(noot:em)</td>
+            <td>Personalizado. Es fijo</td>
+          </tr>
+          <tr>
+            <td>%</td>
+            <td>(heredables)</td>
+            <td>Relativo al elemento padre</td>
+          </tr>
+          <tr>
+            <td rowspan="5">Flexibles</td>
+            <td>vw</td>
+            <td>viewport width</td>
+            <td>1vw 1% del ancho navegador</td>
+          </tr>
+          <tr>
+            <td>vh</td>
+            <td>viewport height</td>
+            <td>1vh 1% del alto del navegador</td>
+          </tr>
+          <tr>
+            <td>vmin</td>
+            <td>viewport minimun</td>
+            <td>1vh establece el ancho minimo</td>
+          </tr>
+          <tr>
+            <td>vmax</td>
+            <td>viewport maximun</td>
+            <td>1vh establece el ancho maximo</td>
+          </tr>
+          <tr>
+            <td>fr</td>
+            <td>Fraction</td>
+            <td>1vh establece 1 parte del navegador, se utiliza grid</td>
+          </tr>
+        <tfoot>
+          <tr>
+            <td colspan="4">Depende de la medida del dispositivo</td>
+          </tr>
+        </tfoot>
+        </tbody>
+      </table>
+
+</body>
+
+</html>

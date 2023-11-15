@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="/css/styles_formulario/styles_formulario4.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+
+        <figure class="container_logo">
+            <a href="../../index.html" >
+                <img src="../../img/logo.png"class="logo" alt="logo">
+            </a>
+        </figure>
+        <nav>
+            <a href="../../index.html">Home</a></li>
+        </nav>
+
+    </header>
+
+    <main class="container_formulario">
+        <h2>Formulario 4</h2>
+        <form class="formulario"action="" method="post">
+            <fieldset class="datos_personales">
+                <legend>Datos personales</legend>
+                <div class="form_group">
+                    <label for="nombre"class="label_form">Nombre completo:</label>
+
+                    <input type="text" id="nombre" name="nombre"class="input_form"><br><br>
+                </div>
+                <div class="form_group">
+                    <label for="telefono" class="label_form">Teléfono:</label>
+                    <input type="text" id="telefono" name="telefono" class="input_form"><br><br>
+                  
+                </div>
+
+                <div class="form_group">
+                    <label for="correo"class="label_form">Correo electrónico:</label>
+                    <input type="text" id="correo" name="correo" class="input_form"><br><br>
+                  
+                </div>
+                <div class="form_group">
+                    <label for="pais"class="label_form">País:</label>
+                    <select name="País"class="input_form">
+                        <option>Uruguay</option>
+                        <option>Perú</option>
+                        <option>Bolivia</option>
+                        <option>Argentina</option>
+                    </select><br><br>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Intereses</legend>
+                <div class="form_group form_group_option">
+                    <input type="checkbox" id="deportes" name="deportes">
+                    <label for="deportes">Deportes</label><br>
+                </div>
+
+                <div class="form_group form_group_option">
+                    <input type="checkbox" id="musica" name="musica">
+                    <label for="musica">Música</label>
+                </div>
+
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html> 

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../css//styles_formulario/styles_formulario_auto.css">
+  <title>Formulario</title>
+</head>
+
+<body>
+  <header>
+
+    <figure class="container_logo">
+      <a href="../../index.html">
+        <img src="../../img/logo.png" class="logo" alt="logo">
+      </a>
+    </figure>
+    <nav>
+      <a href="../../index.html">Home</a></li>
+    </nav>
+
+  </header>
+
+  <div class="container_formulario">
+    <h2 class="title">Registro auto</h2>
+    <form action="" method="get" class="formulario">
+      <fieldset class="datos_personales">
+        <legend>Datos</legend>
+        <h2>Datos Persona</h2>
+        <div class="container_form_group">
+          <div class="form_group">
+            <label for="nombre_propietario_auto" class="label_form">Nombre del titular</label>
+            <input type="text" name="nombre_propietario_auto" id="nombre_propietario_auto" class="input_form"
+              placeholder="" maxlength="30" required>
+
+          </div>
+
+          <div class="form_group">
+            <label for="apellido_propietario_auto" class="label_form">Apellido del titular</label>
+            <input type="text" name="apellido_propietario_auto" id="apellido_propietario_auto" class="input_form"
+              placeholder="" maxlength="30" required>
+
+          </div>
+          <div class="form_group">
+            <label for="telefono_propietario_auto" class="label_form">Telefono</label>
+            <input type="text" name="telefono_propietario_auto" id="telefono_propietario_auto" class="input_form"
+              minlength="9" maxlength="9" pattern="[0-9]+" required>
+
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset class="datos_auto">
+        <legend>Datos</legend>
+        <h2>Registro auto</h2>
+        <div class="container_form_group">
+          <div class="form_group">
+            <label for="marca_auto" class="label_form">Marca</label>
+            <input type="text" name="marca_auto" id="marca_auto" class="input_form" placeholder="" maxlength="12"
+              required>
+
+          </div>
+          <div class="form_group">
+            <label for="modelo_auto" class="label_form">Modelo</label>
+            <input type="text" name="modelo_auto" id="modelo_auto" class="input_form" placeholder="" maxlength="12"
+              required>
+
+          </div>
+          <div class="form_group">
+            <label for="año_auto" class="label_form">Año</label>
+            <input type="number" name="año_auto" id="año_auto" class="input_form" placeholder="" maxlength="4" required>
+
+          </div>
+          <div class="form_group">
+            <label for="color_auto" class="label_form">Color</label>
+            <select name="color_auto" id="color_auto" class="input_form" required>
+              <option value="rojo">Rojo</option>
+              <option value="Negro">Negro</option>
+              <option value="azul">Azul</option>
+              <option value="gris">Gris</option>
+              <option value="blanco">Blanco</option>
+            </select>
+          </div>
+          <div class="form_group">
+            <label for="matricula_auto" class="label_form">Matricula</label>
+            <input type="text" name="matricula_auto" id="matricula_auto" class="input_form" placeholder=""
+              pattern="[A-Z]{3}+ [0-9]{4}+">
+
+          </div>
+          <div class="form_group">
+            <label for="Ciudad" class="label_form">Ciudad</label>
+            <select name="Ciudad" id="Ciudad" class="input_form">
+              <option value="Montevideo">Montevideo</option>
+              <option value="Artigas">Artigas</option>
+              <option value="Artigas">Durazno</option>
+              <option value="Artigas">Flores</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="fecha_padron_auto" class="label_form">Fecha Padron</label>
+            <input type="date" name="fecha_padron_auto" id="fecha_padron_auto" class="input_form" placeholder="">
+
+          </div>
+        </div>
+      </fieldset>
+      <div class="botones">
+        <input type="submit" name="enviar" id="enviar" value="Enviar Valores" class="boton">
+        <input type="reset" name="resetear" id="resetear" value="Resetear Valores" class="boton">
+    </form>
+  </div>
+  </div>
+</body>
+
+</html>

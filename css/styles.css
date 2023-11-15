@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,500&display=swap');
+@import "normalize.css";
+#session1{
+    width: 100vw;
+    height: 100vh;
+    background-color:var(--bg-main);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:var(--color-light);
+    
+}
+
+.container-img-session1{
+    position: relative;
+top:-1rem;
+    width: 40vw;
+    height: 80vh;
+    overflow: hidden;
+    border-radius: 100%;
+    box-shadow: 1px 10px 50px #3b027c,
+    1px 10px 50px #3b027c,
+    1px 10px 50px #3b027c,
+    1px 10px 50px #3b027c;
+
+}
+.container-img-session1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.container-text{
+    height: 50%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+
+}
+.container-text h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.container-text h1 span{
+    color:#6f00ff
+}
+.container-text p{
+    font-size: 1.4rem;
+    font-weight: 600;
+    width: 70%;
+}
+
+/* segunda session */
+
+#session2{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bg-secund);
+    display: flex;
+    justify-content: center;
+    gap:5rem;
+    flex-direction: column;
+align-items: center;    
+}
+.slider-card{
+width: 85%;
+height: 70vh;
+
+
+}
+
+
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 100%;
+  max-width: calc(100%/3);
+  border-radius: 2rem;
+  position: relative;
+flex-direction: column;
+
+}
+.swiper-slide::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 55%;
+  background-color: #6f00ff;
+  border-radius: 30px 30px 0 0;
+  overflow: hidden;
+  top:0;
+  z-index: 1;
+}
+.swiper-slide figure{
+  position:relative;
+  z-index: 100;
+  width: 15vw;
+  height: 30vh;
+  border-radius: 100%;
+  background-color: #020202;
+  overflow: hidden;
+}
+.swiper-slide figure img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-slider:hover {
+  transform: scale(1.1);
+  transition: .5s;
+}
+
+
+h2{
+  font-size: 3rem;
+  color:#F1f1f1;
+  
+}
+
+.swiper-slide .text-card{
+
+  width: 80%;
+  height: 20%;
+  font-size: 1.2rem;
+  text-align: center;
+  color:#020202;
+  font-weight:600;
+  position: relative;
+  z-index: 50;
+  top:2rem;
+}
+.swiper-slide .btn-card{
+  text-decoration: none;
+  color:#020202;
+  position: absolute;
+  top:85%;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.swiper-slide h3{
+  position:relative;
+  z-index: 60;
+  margin:.5rem 0;
+  color:#F1f1f1;
+  font-size: 1.5rem;
+}
+
+
+#session3{
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-main);
+  display: flex;
+  justify-content: center;
+  gap:5rem;
+  flex-direction: column;
+align-items: center; 
+color:#F1f1f1;
+position: relative;
+}
+
+.container-card-form{
+  width: 80%;
+  height: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  position: relative;
+gap:1rem;
+  top:-7%
+}
+
+.card-form{
+  width: 80%;
+  height: 90%;
+  background-color:#3b027c;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  overflow: hidden;
+
+}
+
+.card-form h4{
+  display: none;
+  position: absolute;
+  color: #F1f1f1;
+  font-size: 2rem;
+}
+.card-form:hover > h4{
+  display:flex;
+
+}
+.card-form::before{
+  content: "";
+  width: 100%;
+  display: none;
+  background-color: var(--bg-secund);
+  position: absolute;
+  height: 100%;
+
+}
+.card-form:hover.card-form::before{
+  display: flex;
+  transition: 1s all ease;
+}
+.footer{
+  width: 100vw;
+
+}

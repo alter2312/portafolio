@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="../../css/styles_formulario/styles_formulario2.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+ 
+        <figure class="container_logo">
+          <a href="../../index.html" >
+            <img src="../../img/logo.png" class="logo" alt="logo">
+          </a>
+        </figure>
+        <nav>
+          <a href="../../index.html">Home</a></li>
+        </nav>
+    
+    </header>
+    
+    <main class="container_formulario">
+        <h2>formulario 2</h2>
+        <form action="" method="post" class="formulario">
+
+<div class="info_personal">
+            <div class="form_group">
+                <label for="nombre" class="label_form">Nombre:</label>
+                <input type="text" id="nombre" class="input_form"name="nombre"><br>
+            </div>
+
+            <div class="form_group">
+                <label for="apellidos" class="label_form">Apellido</label>
+                <input type="text" id="apellidos" class="input_form" name="apellidos"><br>
+            </div>
+        </div>
+            <div class="form_group form_group_radio">
+                <label for="sexo" class="label_form" >Genero:</label>
+                <input type="radio" id="hombre" class="input_form_radio"name="sexo" value="hombre">
+                <label for="hombre"class="label_form">Hombre</label>
+
+                <input type="radio" id="mujer" class="input_form_radio" name="sexo" value="mujer">
+                <label for="mujer"class="label_form">mujer</label><br>
+                
+            </div>
+            <div class="form_group form_group_option">
+                <input type="checkbox"class="input_form_radio" id="novedades" name="novedades">
+                <label for="novedades">Deseo recibir informacion sobre novedades y ofertas.</label><br>
+            </div>
+
+            <div class="form_group form_group_option">
+                <input type="checkbox" id="condiciones" name="condiciones" class="input_form_radio">
+                <label for="condiciones">Declaro haber leído y aceptar las condiciones del proveedor.</label><br>
+            </div>
+
+            <div class="botones">
+                <input type="submit" id="enviar" class="boton" name="Enviar">
+                <input type="reset" id="limpiar" name="Limpiar" class="boton" value="Limpiar">
+            </div>
+
+        </form>
+    </main>
+
+</body>
+
+</html>

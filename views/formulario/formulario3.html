@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form3</title>
+    <link href="/css/styles_formulario/styles_formulario3.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+ 
+        <figure class="container_logo">
+          <a href="../../index.html" >
+            <img src="../../img/logo.png"class="logo" alt="logo">
+          </a>
+        </figure>
+        <nav>
+          <a href="../../index.html">Home</a></li>
+        </nav>
+    
+    </header>
+    
+    <main class="container_formulario">
+        <form class="formulario"action="" method="post">
+            <h2>Formulario 3</h2>
+            <div class="container_form_group">
+            <div class="form_group nombre_group">
+                <label for="nombre"class="label_form">Ingrese nombre:</label><br>
+                <input type="text" id="nombre" class="input_form" name="nombre"><br>
+            </div>
+            <div class="form_group form_group_radio">
+                <label for="genero" class="label_form radio">Genero:</label>
+                <input type="radio" id="hombre"class="radio">
+                <label for="hombre" class="label_form radio" >Hombre</label>
+
+                <input type="radio" id="mujer"class="radio" value="mujer">
+                <label for="mujer" class="label_form radio">Mujer</label>
+            </div>
+            <div class="form_group">
+                <label for="ciudad"class="label_form ciudad" >Ciudad:</label>
+                <select name="ciudad" class="input_form">
+                    <option>Montevideo</option>
+                    <option>Ciudad de las piedras</option>
+                    <option>Chuy</option>
+                    <option>Maldonado</option>
+                </select><br><br>
+            </div>
+        </div>
+            <div class="botones">
+                <input type="submit" id="enviar" class="boton" name="Enviar">
+                <input type="reset" id="limpiar" class="boton" name="Limpiar">
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
