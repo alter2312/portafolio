@@ -1,0 +1,44 @@
+@import "normalize.css";
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+justify-content:space-evenly;
+gap:2rem;
+align-items: center;
+    background-color: var(--bg-main);
+}
+.container_table{
+    width: 40%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+table{
+
+    color:#f1f1f1;
+    font-size: 1.3rem;
+    border :1px solid #f3f3f3;
+    width: 100%;
+}
+
+td,tr,th{
+   
+    border:1px solid #f3f3f3;
+}
+thead{
+    background-color: #49ACD7;
+}
+tfoot{
+    background-color: #321BA6;
+}
+h2{
+    
+    font-size: 2rem;
+    text-align: center;
+    color:#09bc8a;
+    font-family:"Montserrat";
+    display: inline-block;
+    width: auto;
+}

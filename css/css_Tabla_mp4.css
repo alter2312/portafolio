@@ -1,0 +1,41 @@
+@import "normalize.css";
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--bg-main);
+}
+.tabla{
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+    position:relative;
+    top:3rem;
+    color:#f1f1f1;
+    font-size: 1.3rem;
+    width: 80%;
+    height: 80%;
+  
+}
+tr, td{
+   
+    border:1px solid #f3f3f3;
+  
+  
+    
+}td{
+    padding: 0 1rem;
+}
+
+h2{
+    position:relative;
+    top:1.4rem;
+    font-size: 2rem;
+    text-align: center;
+    color:var(--color-main);
+    font-family:"Montserrat";
+}

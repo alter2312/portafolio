@@ -1,0 +1,46 @@
+@import "normalize.css";
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--bg-main);
+    width: 100vw;
+    height: 100vh;
+}
+  .tabla{
+    width: 60%;
+    height: 70%;
+  }
+
+  .container h2 span {
+    color: rgb(94, 150, 233);
+    font-size: 2.5rem;
+    font-family: Montserrat, sans-serif;
+  }
+  
+  /* TABLE STYLE */
+  table{
+    width: 100%;
+    height: 100%;
+  }
+  table,
+  tr,
+  th,
+  td {
+    border: 2px solid rgb(3, 3, 3);
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  thead {
+    background-color: rgb(141, 149, 228);
+  }
+  
+  tbody {
+    background-color: #f3f1f3;
+  }
+  
+  tfoot {
+    background-color: rgb(141, 149, 228);
+  }
