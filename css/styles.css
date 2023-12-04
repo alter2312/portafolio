@@ -203,6 +203,7 @@ gap:1rem;
   display:flex;
 
 }
+
 .card-form::before{
   content: "";
   width: 100%;
