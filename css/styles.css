@@ -12,16 +12,14 @@
 }
 
 .container-img-session1{
-    position: relative;
-top:-1rem;
-    width: 40vw;
-    height: 80vh;
-    overflow: hidden;
-    border-radius: 100%;
-    box-shadow: 1px 10px 50px #3b027c,
-    1px 10px 50px #3b027c,
-    1px 10px 50px #3b027c,
-    1px 10px 50px #3b027c;
+  position: relative;
+  top: -1rem;
+  width: 40%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 100%;
+  box-shadow: 1px 10px 50px #3b027c, 1px 10px 50px #3b027c, 1px 10px 50px #3b027c, 1px 10px 50px #3b027c;
+  max-height: 90vh;
 
 }
 .container-img-session1 img{
